@@ -1,0 +1,171 @@
+/*Importation des font google*/
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Courgette|Pacifico&display=swap');
+body{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 18px;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cinzel', serif;
+    margin: 0;
+}
+.bg-orange{
+    background-color: orange;
+}
+header{
+    padding: 1rem 0px;
+}
+header #main .brand a{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: gray;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    padding-top: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav ul li a{
+    text-transform: capitalize;
+    font-family: 'Courgette', cursive;
+    text-decoration: none;
+    color: brown;
+}
+#section1{
+    padding:2rem 0px;
+}
+#section1 h1{
+    color:white;
+    font-size: 7rem;
+    font-weight: bolder;
+    line-height: 8.5rem;
+}
+.img{
+    width: 100%;
+}
+#section2{
+    padding:4rem 0px; 
+    background-color: whitesmoke;
+    text-align: center;
+}
+.feature h5{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.feature {
+    padding: 0.5rem;
+}
+#section3{
+    padding:2rem 0px; 
+    background-color: green;
+}
+#recent{
+    
+    color: white;
+    text-align: center;
+}
+#recent h1{
+    font-size:45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.teal{
+    background-color: rgb(6, 77, 11);
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.89);
+}
+.bl{
+    background-color: rgba(248, 248, 248, 0.89);
+}
+.pink{
+    background-color: pink;
+}
+.purple{
+    background-color: purple;
+}
+.brown{
+    background-color: rgb(230, 130, 17);
+}
+#recent p{
+    margin-bottom: 70px;
+}
+#gal{
+    text-align: center;
+    padding: 100px 0px;
+    margin-top:10px;
+}
+.marg{
+    margin-top: 40px;
+}
+.bt-m{
+  margin-top: 25px;
+}
+.bt-m a{
+    border-radius:5px;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 4px;
+    color:peru;
+    background-color: white;
+}
+.bt-m a:hover{
+    background-color: rgba(0, 0, 0, 0.698);
+}
+.inline-list{
+    list-style-type: none;
+}
+.inline-list li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.inline-list a{
+    color:white;
+    font-family: 'Courgette', cursive;
+    padding: 1rem 2rem;
+}
+.active{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: transparent;
+    border-radius: 2px;
+    color:green;
+    transition: 0.7s;
+}
+.active:hover{
+    background-color: peru;
+}
+.hov{
+    transition: 0.9s;
+}
+.hov:hover{
+    background-color: white;
+    border-radius: 3px;
+}
+.hov a:hover{
+    color:peru;
+}
+footer{
+    padding: 2rem 0;
+}
+.icone{
+    text-align: center;
+}
+.last{
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+    
+    
+}
